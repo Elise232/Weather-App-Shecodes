@@ -1,4 +1,12 @@
-let searchFormElement = document.querySelector("search-form");
-console.log(searchFormElement);
+function handleSearchSubmit(event) {
+    event.preventDefault();
+    let searchInput = document.querySelector("#search-form-input");
+    let city = document.querySelector("#city");
+    city.innerHTML = searchInput.value;
+}
 
-alert("hello world");
+
+
+let searchForm = document.querySelector("#search-form");
+searchForm.addEventListener("submit", handleSearchSubmit);
+

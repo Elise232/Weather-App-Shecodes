@@ -1,0 +1,16 @@
+body{
+    background-color: #f9f7fe;
+}
+.roboto-black-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+.weather-app{
+    background: white;
+    max-width: 680px;
+    margin: 45px auto;
+    box-shadow: 0 30px 50px rgba(65,50,100,0.08);
+    border-radius: 16px;
+    padding: 38px;
+}

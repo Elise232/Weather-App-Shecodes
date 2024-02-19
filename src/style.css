@@ -65,10 +65,11 @@ main{
 .weather-app-temperature-container{
     display: flex;
 }
-.weather-app-icon{
-    width: 88px;
-    height: 88px;
-    font-size: 28px;
+.icon{
+    font-size: 40px;
+    margin-top: 22px;
+    
+    
 }
 
 .weather-app-temperature{
@@ -91,4 +92,24 @@ footer{
     font-weight: 500;
     font-size: 15px;
     color: rgba( 0, 0, 0, 0.6);
+}
+
+.weather-forecast{
+    margin-top: 20px;
+     
+}
+
+.weather-forecast-date{
+    font-size: 16px;
+    color: #dadde1;
+    opacity: 0.5;
+    
+}
+
+.weather-forecast-temperature-min{
+    opacity: 0.5;
+}
+
+.weather-forecast-temperature{
+    font-size: 15px;
 }
